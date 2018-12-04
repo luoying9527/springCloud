@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-euruka
+server:
+  port: 8000
+eureka:
+  client:
+    eureka-server-u-r-l-context: http://peer2:8001/eureka/
+  instance:
+    hostname: peer1
